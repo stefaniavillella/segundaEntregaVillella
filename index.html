@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Econtrá el kit para decorar que buscás y manos a la obra">
+    <meta name="keywords"  content="DISEÑO, KITS, IMPRIMIBLES, EVENTOS, IMPRESIONES">
+    <title>Dreams Graphics - Productos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/compilado.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!--NAVEGACIÓN-->
+  <header class="sticky-top header"> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"> <img src="../img/logo.png" alt="imagen de logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link header__navItem" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__navItem" href="./quienesSomos.html">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__active header__navItem" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__navItem" href="./comoComprar.html">Cómo comprar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__navItem" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Ingresar búsqueda" aria-label="Search">
+            <button class="btn btn-outline-success header__botonBusqueda" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</header>
+
+   <!--ENCABEZADO-->
+   <div>
+    <h1 class="d-flex justify-content-center text-center h1 h1__index p-3"> Elegí tu kit dreams graphics, imprimí y empezá a decorar</h1>
+  </div>
+</div>
+
+
+
+
+<!--CONTENEDOR GENERAL-->
+<div class="container-fluid w-auto productosGeneral">
+<div class="row m-10 justify-content-around">
+
+ <!--CATEGORIAS-->
+ <div class="container-fluid col-md-4 cards__categoria">
+   <div class="row">
+       <div class="col-md-8">
+         
+        <div class="list-group"  role="tablist">
+          <li class="list-group-item disabled categorias" aria-disabled="true">CATEGORÍAS</li>
+          <button  id="btnTodos">Todos</button>
+          <button  id="btnNiños">Niños</button>
+          <button  id="btnNiñas">Niñas</button>
+          <button  id="btnBautismos">Bautismos</button>
+          <button  id="btnComuniones">Comuniones</button>
+          <button  id="btnEspeciales">Especiales</button>
+        </div>
+
+        <div id="mostrarCarrito">
+          <p class="nombreProd"></p>
+        </div>
+        
+      </div>
+   </div>
+</div>
+
+
+<!--CARDS-->
+<div class="container-fluid col-md-8">
+   <div class="row" id="contenedorCards">
+
+             <div class="col-md-4 mb-3 cards cards__cardKit">
+               <div class="cardsProducto" >
+                  <img src="./img/productoNubes.jpg" class="card-img-top" alt="nube">
+                  <div class="card-body">
+                  <h5 class="card-title cards__cardTitle">Nube Romántica</h5>
+                  <p class="card-text cards__cardText">Kit cumpleaños color pastel</p>
+                  <a href="#" class="btn cards__botonCartas" id="precio">$500</a>
+                  <a href="#" class="btn cards__botonCartas" id="btnAgregar">Sumar a carrito</a>
+                 </div>
+              </div>
+            </div>
+            
+         
+
+      <div class="col-md-4 mb-3 cards cards__cardKit">
+          <div class="cardsProducto" >
+              <img src="./img/productoUnicornio.jpg" class="card-img-top" alt="unicornio">
+              <div class="card-body">
+                <h5 class="card-title cards__cardTitle">Unicornio Flores</h5>
+                <p class="card-text cards__cardText">Kit romántico color pastel</p>
+                <a href="#" class="btn cards__botonCartas" id="precio">$400</a>
+                <a href="#" class="btn cards__botonCartas" id="btnAgregar">Sumar a carrito</a>
+              </div>
+            </div>
+          </div>
+      
+         <div class="col-md-4 mb-3 cards cards__cardKit">
+             <div class="cardsProducto">
+                 <img src="./img/productoSirenita.jpg" class="card-img-top" alt="sirenita">
+                 <div class="card-body">
+                  <h5 class="card-title cards__cardTitle">Cola de Sirena</h5>
+                  <p class="card-text cards__cardText">Kit dorado brillos</p>
+                  <a href="#" class="btn cards__botonCartas" id="precio">$550</a>
+                  <a href="#" class="btn cards__botonCartas" id="btnAgregar">Sumar a carrito</a>
+                 </div>
+             </div>
+         </div>
+
+         <div class="col-md-4 mb-3 cards cards__cardKit">
+          <div class="cardsProducto">
+              <img src="./img/productoSelva.jpg" class="card-img-top" alt="selva">
+              <div class="card-body">
+               <h5 class="card-title cards__cardTitle">Animales de la Selva</h5>
+               <p class="card-text cards__cardText">Kit Selva Naranja</p>
+               <a href="#" class="btn cards__botonCartas" id="precio">$500</a>
+               <a href="#" class="btn cards__botonCartas" id="btnAgregar">Sumar a carrito</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 mb-3 cards cards__cardKit">
+          <div class="cardsProducto">
+              <img src="./img/productoRustica.jpg" class="card-img-top" alt="rustica">
+              <div class="card-body">
+               <h5 class="card-title cards__cardTitle">Estilo Rústico</h5>
+               <p class="card-text cards__cardText">Kit Kraft</p>
+               <a href="#" class="btn cards__botonCartas" id="precio">$600</a>
+               <a href="#" class="btn cards__botonCartas" id="btnAgregar">Sumar a carrito</a>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="col-md-4 mb-3 cards cards__cardKit">
+          <div class="cardsProducto">
+              <img src="./img/productoLol.jpg" class="card-img-top" alt="Lol">
+              <div class="card-body">
+               <h5 class="card-title cards__cardTitle">Muñecas LOL</h5>
+               <p class="card-text cards__cardText">Kit ROSA</p>
+               <a href="#" class="btn cards__botonCartas" id="precio">$500</a>
+               <a href="#" class="btn cards__botonCartas" id="btnAgregar">Sumar a carrito</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 mb-3 cards cards__cardKit">
+          <div class="cardsProducto">
+              <img src="./img/productoMarinero.jpg" class="card-img-top" alt="marinero">
+              <div class="card-body">
+               <h5 class="card-title cards__cardTitle">Marinerito</h5>
+               <p class="card-text cards__cardText">Kit rojo y azul</p>
+               <a href="#" class="btn cards__botonCartas" id="precio">$550</a>
+               <a href="#" class="btn cards__botonCartas" id="btnAgregar">Sumar a carrito</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 mb-3 cards cards__cardKit">
+        <div class="cardsProducto">
+            <img src="./img/productoAvion.jpg" class="card-img-top" alt="avion">
+            <div class="card-body">
+             <h5 class="card-title cards__cardTitle">Avión vintage</h5>
+             <p class="card-text cards__cardText">Kit celeste y rojo</p>
+             <a href="#" class="btn cards__botonCartas" id="precio">$450</a>
+             <a href="#" class="btn cards__botonCartas" id="btnAgregar">Sumar a carrito</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3 cards cards__cardKit">
+      <div class="cardsProducto">
+          <img src="./img/productoBosque.jpg" class="card-img-top" alt="bosque">
+          <div class="card-body">
+           <h5 class="card-title cards__cardTitle">Animales del bosque</h5>
+           <p class="card-text cards__cardText">Kit Unisex editable</p>
+           <a href="#" class="btn cards__botonCartas" id="precio">$500</a>
+           <a href="#" class="btn cards__botonCartas" id="btnAgregar">Sumar a carrito</a>
+          </div>
+      </div>
+  </div>
+
+ 
+
+
+  <div id="btnCarrito" class="carrito" aria-label="Abrir lista de compras" tabindex="0">
+    <div class="carrito__container">
+      <i class="fa-solid fa-cart-shopping" id="carrito__icon"></i>
+        <p class="carrito__numero"></p>
+    </div>
+    <p class="carrito__total"></p>   
+</div>
+
+    </div>
+  </div>
+
+</div>              
+</div>
+
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5cfe6" fill-opacity="1" d="M0,160L60,186.7C120,213,240,267,360,277.3C480,288,600,256,720,218.7C840,181,960,139,1080,154.7C1200,171,1320,245,1380,282.7L1440,320L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+  </div>
+
+
+
+ <!-- Footer -->
+ <footer class="page-footer font-small unique-color-light" style="background-color: #fff2fa">
+
+  <div style="background-color: #f5cfe6;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-12 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0 white-text">No olvides sacar una foto de tu deco y enviárnosla</h6>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5 ">
+
+    <!-- Grid row -->
+    <div class="row mt-3 justify-content-around">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto mb-4">
+
+        <!-- Content -->
+        <i class="fas fa-phone mr-3 footer__icon"></i>
+        <h6 class="text-uppercase font-weight-bold footer__title">Contactanos</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Tel.: 02224 500374</p>
+        <p>
+          <i class="fas fa-home mr-3 footer__icon"></i> Costa 140, A.Korn</p>
+        <p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto mb-4">
+
+        <!-- Links -->
+        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x footer__icon"> </i> <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x footer__icon"> </i>
+        <h6 class="text-uppercase font-weight-bold footer__title">Seguinos en las redes</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>@dreamsgraphics_</p>
+
+      </div>
+      <!-- Grid column -->
+
+  
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <i class="fas fa-envelope mr-3 footer__icon"></i>
+        <h6 class="text-uppercase font-weight-bold footer__title">Newsletter</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <form class="input-group">
+          <input type="text" class="form-control form-control-sm" placeholder="Tu email"
+            aria-label="Tu email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-sm header__botonBusqueda my-0" type="button">Enviar</button>
+          </div>
+        </form>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
+    <a class="footer__copy" href="#"> dreamsgraphics.com</a>
+  </div>
+
+    </div>
+  </div>
+   </footer>
+
+
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/segunda.entrega.js"></script>
+
+</body>
+</html>

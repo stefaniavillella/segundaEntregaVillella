@@ -1,0 +1,54 @@
+.carrito {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 90px;
+    height: 90px;
+    border: 2px solid;
+    border-color: #e4506d;
+    background:#f8bfca ;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    cursor: pointer;
+  }
+  .carrito:hover, .carrito:focus-visible {
+    outline: 2px solid #5a66ce ;
+    background: #7280fa;
+  }
+  .carrito__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .carrito__icon {
+    font-size: 4.8rem;
+    text-shadow: 2px 2px 0 var(--color-cuarto), 2.6px 2.6px 0 var(--color-segundo);
+    margin-top: 0.44rem;
+  }
+  .carrito__numero {
+    position: absolute;
+    top: 49%;
+    left: 52%;
+    color: var(--color-primero);
+    transform: translate(-50%, -50%);
+  }
+  .carrito__total {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    text-shadow: 1px 1px 0 var(--color-primero), 1.6px 1.6px 0 var(--color-segundo);
+    display: none;
+  }
+
+  .prodCarrito{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 0.8rem;
+      color: #d4145a;
+    }
